@@ -99,10 +99,10 @@
         r_move {
             display-name = "MOV";
             bindings = <
-&trans  &kp STAR   &kp N1  &kp N2  &kp N3  &kp PLUS                                 &mmv MOVE_UP                     &kp LA(SPACE)  &kp LEFT_GUI  &kp LC(LEFT_SHIFT)  &kp RC(RIGHT_SHIFT)  &kp LA(TAB)  &kp DEL
-&trans  &kp FSLH   &kp N4  &kp N5  &kp N6  &kp MINUS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT       &kp DOWN      &kp UP              &kp RIGHT            &kp HOME     &kp PG_UP
-&trans  &kp CARET  &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp C_MUTE                    &mmv MOVE_DOWN                   &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2        &bt BT_SEL 3         &kp END      &kp PG_DN
-                           &kp N0  &trans  &trans                                                                    &kp INS        &kp DEL       &trans
+&kp LA(LEFT_SHIFT)   &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                 &mmv MOVE_UP                     &kp LA(SPACE)  &kp LEFT_GUI  &kp LC(LEFT_SHIFT)  &kp RC(RIGHT_SHIFT)  &kp LA(TAB)  &kp DEL
+&kp LC(LEFT_SHIFT)   &kp F6   &kp F7   &kp F8  &kp F9  &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT       &kp DOWN      &kp UP              &kp RIGHT            &kp HOME     &kp PG_UP
+&kp RC(RIGHT_SHIFT)  &kp F11  &kp F12  &trans  &trans  &trans   &kp C_MUTE                    &mmv MOVE_DOWN                   &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2        &bt BT_SEL 3         &kp END      &kp PG_DN
+                                       &kp N0  &trans  &trans                                                                  &kp INS        &kp DEL       &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
