@@ -101,7 +101,7 @@
             bindings = <
 &trans  &out OUT_BLE  &out OUT_USB  &trans  &trans  &trans                    &trans          &trans  &kp EXCLAMATION       &kp AT                 &kp POUND      &kp DLLR   &trans
 &trans  &trans        &trans        &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp PRCNT             &kp CARET              &kp AMPERSAND  &kp ASTRK  &trans
-&trans  &trans        &trans        &trans  &trans  &trans  &trans            &trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER      &kp PLUS   &trans
+&trans  &bootloader   &sys_reset    &trans  &trans  &trans  &trans            &trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER      &kp PLUS   &trans
                                     &trans  &trans  &trans                                    &trans  &trans                &trans
             >;
         };
