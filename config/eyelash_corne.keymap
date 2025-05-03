@@ -58,7 +58,7 @@
                               &kp LGUI  &mo 1  &lt 4 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         lower_layer {
@@ -86,7 +86,7 @@
         };
 
         layer_3 {
-            display-name = "Fn";
+            display-name = "Func";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
@@ -104,6 +104,8 @@
 &trans  &bootloader   &sys_reset    &trans  &trans  &trans  &trans            &trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER      &kp PLUS   &trans
                                     &trans  &trans  &trans                                    &trans  &trans                &trans
             >;
+
+            label = "CONF";
         };
     };
 };
