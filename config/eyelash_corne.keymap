@@ -58,7 +58,7 @@
                               &kp LGUI  &mo 4  &lt 3 SPACE                                                                       &lt 2 ENTER  &mo 1  &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
         };
 
         l_numbers {
