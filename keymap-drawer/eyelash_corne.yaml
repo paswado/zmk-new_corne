@@ -46,16 +46,16 @@ layers:
   - LGUI
   - MOV
   - {t: '$$mdi:keyboard-space$$', h: CONF}
-  - {t: '$$mdi:keyboard-return$$', h: SYM}
-  - NUM
+  - {t: '$$mdi:keyboard-return$$', h: NUM}
+  - SYM
   - $$mdi:apple-keyboard-option$$
   NUM:
-  - +
+  - $$mdi:keyboard-tab$$
+  - {t: Sft+/, s: 'Sft+?'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - '*'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
@@ -63,12 +63,12 @@ layers:
   - (
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '-', s: _}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - +
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -78,12 +78,12 @@ layers:
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
   - {t: '`', s: '~'}
+  - $$mdi:apple-keyboard-control$$
+  - ^
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - {t: '=', s: +}
-  - '*'
-  - {t: /, s: '?'}
-  - (
-  - )
-  - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
@@ -95,8 +95,8 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '$$mdi:keyboard-return$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
   - '~'
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   CONF:
   - {t: '$$mdi:transfer$$', type: trans}
